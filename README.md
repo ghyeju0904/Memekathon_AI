@@ -1,9 +1,16 @@
+## ⚙️ 실행방법
+1. venv 실행(python 3.13 사용 추천)
+2. .env 파일 생성
+3. OPENAI_API_KEY="sk-proj-XXXXXX" 입력
+4. 코드 실행
+
+
 ## 👾 코드 구현
 **API 버전**  
 파일명 - meme_explainer.py  
 실행코드 - python meme_explainer.py userName
 
-**Dummy 버전**
+**Dummy 버전**  
 파일명 - dummy_explainer.py  
 실행코드 - python dummy_explainer.py userName
 
