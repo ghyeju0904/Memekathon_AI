@@ -1,3 +1,19 @@
+## 👾 코드 구현
+**API 버전**  
+파일명 - meme_explainer.py  
+실행코드 - python meme_explainer.py userName
+
+**Dummy 버전**
+파일명 - dummy_explainer.py  
+실행코드 - python dummy_explainer.py userName
+
+**코드 차이점**  
+매트릭 호출 부분 - 
+`def fetch_creator_metrics(creator_id: str) -> Dict[str, Any]:...`
+ - get_user_posts 대신 data/dummy_data.py의 DUMMY_ACTIVITY_7D 사용
+- 그 외 점수계산, 구간 라벨링, LLM 설명, 최종 출력 구조, bot_score 계산 부분 동일   
+
+
 ## 🧮 MemeScore 입력 데이터 예시
 
 `compute_memescore_parts()` 함수는 **최근 7일간의 활동 데이터 + 현재 팔로워 수 + Tip 정보**를 입력으로 받아 MemeScore를 구성하는 세부 점수들을 계산
